@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'rake'
 gem 'json'
 gem 'puppet-syntax'
 gem 'puppet-lint', '1.1.0'
