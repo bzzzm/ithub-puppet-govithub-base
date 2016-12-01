@@ -2,7 +2,6 @@ class base (
 
     # Puppet related
     Boolean $manage_puppet      = true,
-    String  $puppet_version     = '1.8.1-1.el7',
 
     # Network related
     Boolean $network_manager    = false,
@@ -14,9 +13,7 @@ class base (
     # manage puppet module
     # @todo: create private puppet module, this one can only install puppet, you can add, for example, config params 
     if $manage_puppet {
-        class { "::puppet_agent":
-            package_version => $puppet_version
-        }
+        include base::resources::puppet_agent
     }
 
     # manage epel
