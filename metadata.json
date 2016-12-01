@@ -1,0 +1,21 @@
+{
+  "name": "govithub-base",
+  "version": "1.0.0",
+  "author": "Gov IT HUB",
+  "license": "Apache-2.0",
+  "summary": "Base module for Gov IT HUB services",
+  "source": "???",
+  "project_page": "???",
+  "issues_url": "???",
+  "tags": ["govithub", "base"],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease": ["7.0"]
+    }
+  ],
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": ">= 4.5.0 < 5.0.0" }
+  ],
+  "data_provider": "hiera"
+}

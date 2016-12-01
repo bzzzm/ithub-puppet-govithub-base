@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'json'
+gem 'puppet-syntax'
+gem 'puppet-lint', '1.1.0'
+gem 'colorize'
+gem 'ra10ke'
+gem 'puppet', '4.5.0'
